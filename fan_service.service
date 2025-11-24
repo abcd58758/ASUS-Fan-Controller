@@ -1,0 +1,12 @@
+[Unit]
+Description=ASUS_fan_service
+
+[Service]
+Type=simple
+ExecStart=/home/yancat/asus_fan/start_service
+User=root
+WorkingDirectory=/usr/local/bin
+StandardOutput=null
+StandardError=/home/yancat/asus_fan/service.log
+
+[Install]

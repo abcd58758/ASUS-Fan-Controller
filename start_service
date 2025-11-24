@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+exec python /home/yancat/asus_fan/fan_service.py
